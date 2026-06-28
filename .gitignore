@@ -1,0 +1,40 @@
+# Java / Maven
+backend/target/
+backend/.mvn/
+*.class
+*.jar
+*.war
+
+# Node
+node-tts-service/node_modules/
+node-tts-service/audio-files/
+node_modules/
+
+# React
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Uploads & generated audio
+backend/uploads/
+backend/audio-files/
+*.mp3
+
+# Environment / secrets
+.env
+.env.local
+*.env
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
